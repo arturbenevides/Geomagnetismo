@@ -21,8 +21,8 @@ Integrantes:
 
 
 ###################################################################################
-##						Objetivos do Código:						   #	
-##															   #	
+##						Objetivos do Código:		   #	
+##										   #	
 ##	Cálcular médias horárias, mensais e anuais para components do campo magnético #
 ##	utilizando dados do observatório de Vassouras a partir do INTERMAGNET         #
 ################################################################################### 
@@ -92,7 +92,7 @@ print(MEAN_2000)
 
 
 '''
-    Lee la carpeta de datos del 2001 y calcula F(x,y,z)
+     2001 y calcula F(x,y,z)
 '''
 # colocar la dir. de la carpeta 2001
 dias = glob.glob('*.min')
@@ -175,7 +175,7 @@ MEAN_2002 = np.mean(mean_2002)
 print(MEAN_2002)
 
 '''
-    Lee la carpeta de datos del 2003 y calcula F(h,z)
+     2003 e calcula F(h,z)
 '''
 # colocar la dir. de la carpeta 2003
 dias = glob.glob('*.min')
