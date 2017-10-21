@@ -1,0 +1,33 @@
+README
+
+In this directory you will find a simple example of generating predictions of the CHAOS field model (both internal and external field parts).  This example should be modified by users to fit the task required.
+
+Inputs:
+
+./CHAOS-6.mat : 		Latest CHAOS model in .mat format
+./RC_1997-2016_May_v1.dat:	Latest RC index  (needed for hourly time-dependence of q10 in SM co-ords; need new version** if wish to use after early April 2016)
+./ input.dat   :   		Example input file: 
+				Each row defines the location and time of one datum to be predicted 
+				The 4 columns are geoc. co-lat.(degs), geoc. long. (degs), alt. (km) and time (mjd2000)
+
+Script:
+
+./synth_CHAOS_preds.m	:	Reads CHAOS model, RC, and data locations/times from input.dat.
+				Calculates predictions of internal and external parts of the CHAOS model
+				Outputs predictions
+
+Output:
+
+./CHAOS_preds.dat	:	Output results as acii file.  Each row corresponds to an input point.  Columns are,  
+			 	Time, Radius, Co-lat (deg), Long (deg), 
+				& CHAOS model predictions (total, internal, external) for B_r, B_theta, B_phi (nT).
+
+Needs in path/or same directory:  
+
+design_SHA_sm.m, design_SHA_gsm.m, design_SHA.m,  geo2sm.m, GSM_SM_SHA.mat, mat_mul_mat.m, sunGEI.m, synth_values.m
+synth_values_CHAOS_ext.m
+
+If you have questions, please contact chris finlay at cfinlay@space.dtu.dk
+
+** The most recent version of the RC index is available at http://www.spacecenter.dk/files/magnetic-models/RC/current/
+
