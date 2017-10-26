@@ -262,9 +262,4 @@ pylab.xlim([1915,2015])
 plt.savefig('D_1915-2015.png', bbox_inches='tight',dpi=500)
 #plt.show()
 
-# Eliminar los "nan" del vector mean 
-    #mean_2000 = [value for value in mean if not math.isnan(value)]
 
-#Calcula la media aritmética del año  
-#MEAN_2000 = np.mean(mean_2000)
-#print(MEAN_2000)
