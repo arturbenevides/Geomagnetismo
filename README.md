@@ -8,4 +8,4 @@ No diretório `CHAOS-6` estão disponíveis as rotinas necessárias para gerar o
 
 
 
-<img src='http://4.bp.blogspot.com/-BmpCzLLiQE8/UDEPVsfbLYI/AAAAAAAADhs/dfE2VzzbFQI/s1600/020175110114-geomagnetismo.jpg' width = 500>
+<img src='http://www.space.dtu.dk/english/-/media/Institutter/Space/forskning/Afdelinger/geomagnetisme.ashx?h=294&la=da&mw=460&w=460' width = 500>
