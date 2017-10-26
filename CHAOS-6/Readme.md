@@ -1,17 +1,17 @@
 # CHAOS-6 Modelo de Campo Geomagnético 
 
-*Autores: Christopher C. Finlay1, Nils Olsen1, Stavros Kotsiaros1, Nicolas Gillet2, and Lars Toeffner-Clausen1
+*Autores: Christopher C. Finlay¹, Nils Olsen¹, Stavros Kotsiaros¹, Nicolas Gillet², and Lars Toeffner-Clausen¹
 
 * website [chaos-6](http://www.spacecenter.dk/files/magnetic-models/CHAOS-6/)
 
-1DTU Space, National Space Institute, Technical University of Denmark, Elektrovej 327, 2800 Kgs. Lyngby, Denmark.
-2ISTerre, Universite Grenoble 1, and CNRS, Grenoble, France.
+1 DTU Space, National Space Institute, Technical University of Denmark, Elektrovej 327, 2800 Kgs. Lyngby, Denmark.
+2 ISTerre, Universite Grenoble 1, and CNRS, Grenoble, France.
 
 
 
-** Estas pastas contém os códigos e os dados necessários para gerar o modelo do campo magnético terrestre interno, externo e total. **
+***Estas pastas contém os códigos e os dados necessários para gerar o modelo do campo magnético terrestre interno, externo e total.*** 
 
-- [x] `covert.m` é uma código em matlab que utiliza funções internas para converter dados no formato (AAAA MM DD Hora Min Seg) para juliandate que é o formato ulitilazdo para pelo programa `synth_CHAOS_preds` para geração dos modelos. (Mais informações sobre as funções, veja o arquivo `about_convert`)
+- [ ] `covert.m` é uma código em matlab que utiliza funções internas para converter dados no formato (AAAA MM DD Hora Min Seg) para juliandate que é o formato ulitilazdo para pelo programa `synth_CHAOS_preds` para geração dos modelos. (Mais informações sobre as funções, veja o arquivo `about_convert`)
 
 
 
