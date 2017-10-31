@@ -1,0 +1,205 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdftex 2017.9.3)  30 OCT 2017 17:04
+entering extended mode
+**"C:/Users/Artur Benevides/Desktop/Poster_VSS/beamerthemeI6dv.sty"
+("C:/Users/Artur Benevides/Desktop/Poster_VSS/beamerthemeI6dv.sty"
+! Undefined control sequence.
+l.1 \ProvidesPackage
+                    {beamerthemeI6dv} % this style was created by David Vilar
+? 
+! Undefined control sequence.
+l.4 \selectcolormodel
+                     {cmyk}
+? 
+! Undefined control sequence.
+l.5 \mode
+         <presentation>
+? 
+! Undefined control sequence.
+l.10 \definecolor
+                 {i6blue}{cmyk}{1,0.305,0,0.06}
+? 
+! Undefined control sequence.
+l.11 \definecolor
+                 {i6bluedark}{rgb}{0.0156,0.2578,0.5625}
+? 
+! Undefined control sequence.
+l.13 \definecolor
+                 {i6colorscheme1}{HTML}{FF6518}  % e.g. for block title
+? 
+! Undefined control sequence.
+l.14 \definecolor
+                 {i6colorblockbg}{HTML}{0033cc}
+? 
+! Undefined control sequence.
+l.15 \definecolor
+                 {i6colorblockfg}{HTML}{FCE94F}
+? 
+! Undefined control sequence.
+l.16 \definecolor
+                 {i6colorscheme2}{HTML}{000000}  % e.g. title in headline
+? 
+! Undefined control sequence.
+l.17 \definecolor
+                 {i6colorscheme3}{HTML}{C3DFFF}  % e.g. for poster background
+? 
+! Undefined control sequence.
+l.18 \definecolor
+                 {i6colorscheme4}{HTML}{000000}
+? 
+! Undefined control sequence.
+l.19 \definecolor
+                 {i6colorschemeHeadline}{HTML}{0033cc}  % for headline bg
+? 
+! Undefined control sequence.
+l.21 \definecolor
+                 {i6colorschemeFootline}{HTML}{100D09}  % for headline bg
+? 
+
+Overfull \hbox (63.74628pt too wide) in paragraph at lines 10--22
+[]\tenrm i6bluecmyk1,0.305,0,0.06 i6bluedarkrgb0.0156,0.2578,0.5625 i6colorsche
+me1HTMLFF6518 i6colorblockbgHTML0033cc|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm 6
+.\tenrm b
+.\tenrm l
+.etc.
+
+
+Overfull \hbox (48.16055pt too wide) in paragraph at lines 10--22
+\tenrm i6colorblockfgHTMLFCE94F i6colorscheme2HTML000000 i6colorscheme3HTMLC3DF
+FF i6colorscheme4HTML000000|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm i
+.\tenrm 6
+.\tenrm c
+.\tenrm o
+.\tenrm l
+.etc.
+
+! Undefined control sequence.
+l.24 \setbeamercolor
+                    {headline}{fg=white,bg=i6colorschemeHeadline}
+? 
+! Undefined control sequence.
+l.25 \setbeamercolor
+                    {title in headline}{fg=white}
+? 
+! Undefined control sequence.
+l.26 \setbeamercolor
+                    {author in headline}{fg=lightgray}
+? 
+! Undefined control sequence.
+l.27 \setbeamercolor
+                    {institute in headline}{fg=lightgray}
+? 
+! Undefined control sequence.
+l.28 \setbeamercolor
+                    {logo in headline}{fg=black,bg=lightgray}
+? 
+! Undefined control sequence.
+l.29 \setbeamercolor
+                    {separation line}{bg=i6colorscheme1}
+? 
+! Undefined control sequence.
+l.32 \setbeamercolor
+                    {footline}{fg=white,bg=i6colorschemeHeadline}
+? 
+! Undefined control sequence.
+l.33 \setbeamerfont
+                   {footline}{fg=white, size=\normalsize}
+? 
+! Undefined control sequence.
+l.33 ...rfont{footline}{fg=white, size=\normalsize
+                                                  }
+? 
+! Undefined control sequence.
+l.36 \setbeamercolor
+                    *{normal text}{fg=black,bg=i6colorscheme3}
+? 
+! Undefined control sequence.
+l.39 \setbeamercolor
+                    *{block body}{bg=white,fg=black}
+? 
+! Undefined control sequence.
+l.40 \setbeamercolor
+                    *{block title}{fg=i6colorblockfg,bg=i6colorblockbg}
+? 
+! Undefined control sequence.
+l.41 \setbeamerfont
+                   {block title}{size=\large,series=\bf}
+? 
+! Undefined control sequence.
+l.41 \setbeamerfont{block title}{size=\large
+                                            ,series=\bf}
+? 
+! Undefined control sequence.
+l.44 \setbeamercolor
+                    *{example title}{fg=white,bg=i6colorscheme1}
+? 
+! Undefined control sequence.
+l.45 \setbeamerfont
+                   {example title}{size=\large,series=\bf,bg=i6colorscheme1,...
+
+? 
+! Undefined control sequence.
+l.45 \setbeamerfont{example title}{size=\large
+                                              ,series=\bf,bg=i6colorscheme1,...
+
+? 
+
+Overfull \hbox (0.57954pt too wide) in paragraph at lines 44--46
+[]\tenrm *example ti-tlefg=white,bg=i6colorscheme1 ex-am-ple ti-tle-size=,serie
+s=\tenbf ,bg=i6colorscheme1,fg=white |
+
+\hbox(7.5+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm *
+.\tenrm e
+.\tenrm x
+.\tenrm a
+.etc.
+
+! Undefined control sequence.
+l.57 \setbeamercolor
+                    {alerted text}{fg=i6colorscheme1}
+? 
+! Undefined control sequence.
+l.65 \setbeamertemplate
+                       {itemize items}[triangle]
+? 
+! Undefined control sequence.
+l.66 \setbeamertemplate
+                       {navigation symbols}{}  % no navigation on a poster
+? 
+! Undefined control sequence.
+l.69 \setbeamertemplate
+                       {block begin}{
+? 
+! Undefined control sequence.
+l.71 	\begin
+            {beamercolorbox}[leftskip=1cm,colsep*=.75ex]{block title}%
+? 
+! Undefined control sequence.
+l.72 		\usebeamerfont
+                     *{block title}\insertblocktitle
+? 
+! Undefined control sequence.
+l.72 ...ebeamerfont*{block title}\insertblocktitle
+                                                  
+? 
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 69 ({)
+### bottom level<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on beamerthemeI6dv.pdf (1 page, 34279 bytes).
+PDF statistics:
+ 14 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
