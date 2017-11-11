@@ -89,84 +89,53 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Primeira coluna %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{block}{Introdução}
-	
-\begin{itemize}
-\justifying
-		\item Vassouras Magnetic Observatory (VSS) was the first observatory in Brazil, starting its	measurements in 1915. 
+\begin{block}{Introduction}
+\justifying	
+ Vassouras Magnetic Observatory (VSS) was the first observatory in Brazil, starting its measurements in 1915. VSS plays an important role in monitoring of the magnetic field in the south hemisphere mainly because is located in region of Southern Atlantic Magnetic Anomaly (SAMA). VSS is part of the INTERMAGNET since 1999 because of its high data quality and transmission in real time.
+ 
+ This work presents the history of VSS as well as the centennial dataset (1915-2015). We	explore the comparison of VSS data and results of IGRF model, present a day Solarquiet and storm data as well the main characteristics of the secular variation in	VSS and the possible geomagnetic jerks occurring in this period.	
 		
-		\item VSS is part of the INTERMAGNET since 1999 because of its high data quality and transmission in real time.
-		
-		\item This work presents the history of VSS as well as the centennial dataset (1915-2015). We	explore the comparison of VSS data and results of IGRF model
-		
-		\item  Presentation of Sq and storm data and comparison with CHAOS model
-		
-		\item The main characteristics of the secular variation in
-		VSS
-		
-		\item The possible geomagnetic jerks occurring in this period.	
-		
-	\end{itemize}
+
 	
 \end{block}
+
+\begin{block}{History (1915 - 2015)}
+	
+In 1915 the director Morris of the observatory choose the ideal place for installing of the Vassoura Magnetic Observatory.
+	
+	
+	
+\end{block}
+
 
 \begin{columns}
 	\begin{column}{.31\linewidth}
 	
-\begin{block}{Geomagnetic field (1915-2015)}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\linewidth]{X}
-	\caption{1. Root means square (RMS) between VSS data and IGRF model (X component) is 0.25 (\%)}
-	\label{X}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\linewidth]{Y}
-	\caption{2. RMS (Y component) = 1.98 (\%)}
-	\label{y}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\linewidth]{Z}
-	\caption{3. RMS (Z component) = 1.22 (\%)}
-	\label{z}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1.0\linewidth]{F}
-	\caption{4. RMS (Intensity F) = 0.19 (\%)}
-	\label{f}
-\end{figure}
+\begin{block}{}
 
 
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=1.0\linewidth]{D}
-		\caption{5. RMS (Inclination) = 1.1 (\%)}
-		\label{fo}
-	\end{figure}
-	
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=1.0\linewidth]{I}
-		\caption{6. RMS (Declination) = 1.88 (\%)}
-		\label{ico}
-	\end{figure}
-	
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=1.0\linewidth]{H}
-		\caption{7. RMS (H component) = 1.98 (\%)}
-		\label{f_Sintetico}
-	\end{figure}
+\begin{itemize}
+\justifying
+		\item \bf{Least Square Method (LSM)}
+\end{itemize}
+
+\begin{itemize}
+\justifying
+		\item \bf{Fit by spline interpolation}
+\end{itemize}
+The secular variation of X,Y and Z compontents were fitted using an algorithm  of linear fit by spline method: 
+	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
+	for x_{n-1} \le x \le x_{n} \]\\
+
+\begin{itemize}
+\justifying
+		\item \bf{Root Means Square (RMS)}
+\end{itemize}
+We calculated the erro between the model IGRF and the data from VSS using RMS:
+\[e_{RMS}=\frac{1}{N} \sqrt{\sum\limits_{i=1}^{N}(m_{i}-d_{i})^{2}}, 
+\]
+the RMS can be view in the legends of figures.
+ 
 	
 \end{block}	
 
@@ -264,18 +233,12 @@ Analyzing the secular variations for spline fits:
 
 \begin{block}{VSS}
 	\justifying
-\begin{tabbing}
-	\hspace{}\=\hspace{}\=\kill
-	\>  \> \\ 
-	\>  \> \\ 
-	\>  \> \\ 
-	\>  \> \\ 
-	\>  \> \\ 
-	\>  \> \\
-	\>  \> \\
-
-	\>  \> 
-\end{tabbing} 
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{OMV_JOELSONMOREIRA}
+\caption{}
+\label{fig:OMV_JOELSONMOREIRA}
+\end{figure}
 
 
 
@@ -285,13 +248,17 @@ Analyzing the secular variations for spline fits:
 
 \begin{block}{VSS}
 	\centering
-\begin{tabular}{|c|c|c|}
-	\hline Year & Equipament & sampling (accuracy) \\ 
-	\hline  &  &  \\ 
-	\hline  &  &  \\ 
-	\hline  &  &  \\ 
-	\hline  &  &  \\ 
-	\hline 1999  &  &  \\ 
+\begin{tabular}{|c|c|c|c|}
+		\hline
+		\multicolumn{4}{|c|}{\textbf{Change/year}}\\	
+	\hline   & VSS (nT)& IGRF12 (nT) & WMM2015 (nT)\\ 
+	\hline Total intensity & -22,7  & -3.0  & -7.8  \\ 
+	\hline X component & -74,7 & -98.0 & -93.3 \\ 
+	\hline Y component & 24,9  & 2.2 & 5.4 \\ 
+	\hline Z component & -79,8 & -91.6  & -94.1\\ 
+	\hline H component  & -64,7 & -85.3 & -88.2\\ 
+	\hline I component  & -0° 14' 13" & -0° 19' 15" &-0° 19' 5"\\ 
+	\hline D component  & -0° 7' 2,28" & -0° 6' 25" & -0° 5' 59"\\ 
 	\hline 
 \end{tabular} 
 	
@@ -323,4 +290,55 @@ Analyzing the secular variations for spline fits:
 \end{document}
 
 
+%\begin{figure}
+%%	\includegraphics[width=1.0\linewidth]{X}
+%	\caption{1. Root means square (RMS) between VSS data and IGRF model (X component) is 0.25 (\%)}
+%	\label{X}
+%\end{figure}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{Y}
+%	\caption{2. RMS (Y component) = 1.98 (\%)}
+%	\label{y}
+%\end{figure}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{Z}
+%	\caption{3. RMS (Z component) = 1.22 (\%)}
+%	\label{z}
+%\end{figure}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{F}
+%	\caption{4. RMS (Intensity F) = 0.19 (\%)}
+%	\label{f}
+%\end{figure}
+
+
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{D}
+%	\caption{5. RMS (Inclination) = 1.1 (\%)}
+%	\label{fo}
+%\end{figure}
+
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{I}
+%	\caption{6. RMS (Declination) = 1.88 (\%)}
+%	\label{ico}
+%\end{figure}
+
+
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=1.0\linewidth]{H}
+%		\caption{7. RMS (H component) = 1.98 (\%)}
+%		\label{f_Sintetico}
+%	\end{figure}
 
