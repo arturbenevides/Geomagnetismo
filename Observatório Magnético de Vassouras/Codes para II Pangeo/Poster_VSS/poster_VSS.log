@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.17)  11 NOV 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.17)  12 NOV 2017 17:52
 entering extended mode
 **./poster_VSS.tex
 (poster_VSS.tex
@@ -749,8 +749,8 @@ Package: babel 2017/05/19 3.10 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
-Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/01/24 v3.3q English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2017/05/19 3.10 Babel common definitions
@@ -758,8 +758,9 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \U@D=\dimen261
 LaTeX Info: Redefining \textlatin on input line 1648.
 )
-\l@brazil = a dialect from \language\l@portuges 
-Package babel Info: Making " an active character on input line 145.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -1436,42 +1437,118 @@ Overfull \hbox (22.75752pt too wide) in paragraph at lines 84--84
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <28.61> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 92.
+
+! Package inputenc Error: Unicode char ° (U+B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...he city of Vassouras, RJ (Latitude 22.4°
+                                                   S and 43.35° W) as the i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ° (U+B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...souras, RJ (Latitude 22.4° S and 43.35°
+                                                   W) as the ideal place for...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 ! Undefined control sequence.
 \\itemize ...ix item}##1}}}}} \fi \beamer@cramped 
                                                   \raggedright \beamer@first...
-l.118 \justifying
-                 
+l.117 	\justifying
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Calculating math sizes for size <16.56> on input line 119.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <16.56> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 119.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.59193> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 119.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.28> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 119.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 	\justifying
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ! Undefined control sequence.
 \\itemize ...ix item}##1}}}}} \fi \beamer@cramped 
                                                   \raggedright \beamer@first...
-l.123 \justifying
-                 
+l.120 	\justifying
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Calculating math sizes for size <28.61> on input line 127.
+LaTeX Font Info:    Calculating math sizes for size <13.8> on input line 121.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <13.8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 121.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.65996> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 121.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6.9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 121.
+
+Underfull \hbox (badness 3568) in paragraph at lines 121--122
+[]\OT1/phv/b/n/28.61 Elements of the ge-o-mag-netic
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <28.61> on input line 123.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <28.61> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 127.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <20.0269> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 127.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.305> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 127.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 123.
+LaTeX Font Info:    Calculating math sizes for size <16.56> on input line 131.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <16.56> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.59193> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8.28> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 131.
+! Undefined control sequence.
+\\itemize ...ix item}##1}}}}} \fi \beamer@cramped 
+                                                  \raggedright \beamer@first...
+l.139 \justifying
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\itemize ...ix item}##1}}}}} \fi \beamer@cramped 
+                                                  \raggedright \beamer@first...
+l.144 \justifying
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1479,7 +1556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
+l.148 	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1488,7 +1565,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.127 	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
+l.148 	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
                                                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1496,7 +1573,7 @@ you left one out. Proceed, with fingers crossed.
 ! Display math should end with $$.
 <to be read again> 
                    \par 
-l.127 	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
+l.148 	\[ f(x)= f(x_{n-1})+t_{n-1}(x-x_{n-1}), \\
                                                  
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -1504,7 +1581,7 @@ So I shall assume that you typed `$$' both times.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.128 	for x_
+l.149 	for x_
              {n-1} \le x \le x_{n} \]\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1512,7 +1589,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.128 	for x_{n-1} \le x \le x_{n} \]
+l.149 	for x_{n-1} \le x \le x_{n} \]
                                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1523,7 +1600,7 @@ my insertion and my current dilemma will both disappear.
 ! Undefined control sequence.
 \\itemize ...ix item}##1}}}}} \fi \beamer@cramped 
                                                   \raggedright \beamer@first...
-l.131 \justifying
+l.152 \justifying
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1531,76 +1608,121 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<28_29_june(2013).png, id=14, 722.7pt x 722.7pt>
-File: 28_29_june(2013).png Graphic file (type png)
- <use 28_29_june(2013).png>
-Package pdftex.def Info: 28_29_june(2013).png used on input line 154.
-(pdftex.def)             Requested size: 307.3741pt x 307.36949pt.
+<"figs_ed/X mean all_V2".png, id=14, 937.5025pt x 297.11pt>
+File: "figs_ed/X mean all_V2".png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-[]\OT1/phv/m/n/28.61 Possible ocur-rence of ge-o-mag-ne-tic
+<use "figs_ed/X mean all_V2".png>
+Package pdftex.def Info: "figs_ed/X mean all_V2".png used on input line 169.
+(pdftex.def)             Requested size: 461.03964pt x 302.9983pt.
+
+<"figs_ed/Y mean all_v2".png, id=16, 940.51375pt x 297.11pt>
+File: "figs_ed/Y mean all_v2".png Graphic file (type png)
+
+<use "figs_ed/Y mean all_v2".png>
+Package pdftex.def Info: "figs_ed/Y mean all_v2".png used on input line 176.
+(pdftex.def)             Requested size: 461.05669pt x 302.9983pt.
+
+<"figs_ed/Z mean all_v2".png, id=17, 950.55125pt x 297.11pt>
+File: "figs_ed/Z mean all_v2".png Graphic file (type png)
+
+<use "figs_ed/Z mean all_v2".png>
+Package pdftex.def Info: "figs_ed/Z mean all_v2".png used on input line 194.
+(pdftex.def)             Requested size: 409.83139pt x 302.9983pt.
+
+<"figs_ed/F mean all_v2".png, id=18, 937.5025pt x 297.11pt>
+File: "figs_ed/F mean all_v2".png Graphic file (type png)
+
+<use "figs_ed/F mean all_v2".png>
+Package pdftex.def Info: "figs_ed/F mean all_v2".png used on input line 201.
+(pdftex.def)             Requested size: 409.82732pt x 302.9983pt.
+
+<"figs_ed/H mean all_v2".png, id=19, 937.5025pt x 297.11pt>
+File: "figs_ed/H mean all_v2".png Graphic file (type png)
+
+<use "figs_ed/H mean all_v2".png>
+Package pdftex.def Info: "figs_ed/H mean all_v2".png used on input line 208.
+(pdftex.def)             Requested size: 409.82732pt x 302.9983pt.
+
+<"figs_ed/D mean all_v2".png, id=20, 940.51375pt x 297.11pt>
+File: "figs_ed/D mean all_v2".png Graphic file (type png)
+
+<use "figs_ed/D mean all_v2".png>
+Package pdftex.def Info: "figs_ed/D mean all_v2".png used on input line 216.
+(pdftex.def)             Requested size: 461.05669pt x 302.9983pt.
+
+<"figs_ed/I mean all_v2".png, id=21, 920.43875pt x 297.11pt>
+File: "figs_ed/I mean all_v2".png Graphic file (type png)
+
+<use "figs_ed/I mean all_v2".png>
+Package pdftex.def Info: "figs_ed/I mean all_v2".png used on input line 224.
+(pdftex.def)             Requested size: 461.06093pt x 302.9983pt.
+
+<F27_31_october(2003).png, id=22, 1084.05pt x 722.7pt>
+File: F27_31_october(2003).png Graphic file (type png)
+
+<use F27_31_october(2003).png>
+Package pdftex.def Info: F27_31_october(2003).png used on input line 240.
+(pdftex.def)             Requested size: 409.82953pt x 273.21733pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--262
+[]\OT1/phv/m/n/28.61 Possible ocur-rence of ge-o-mag-netic
  []
 
-<retasX.png, id=16, 522.95375pt x 503.8825pt>
+<retasX.png, id=23, 522.95375pt x 503.8825pt>
 File: retasX.png Graphic file (type png)
  <use retasX.png>
-Package pdftex.def Info: retasX.png used on input line 175.
-(pdftex.def)             Requested size: 307.3741pt x 296.16556pt.
+Package pdftex.def Info: retasX.png used on input line 263.
+(pdftex.def)             Requested size: 256.14249pt x 246.80463pt.
 
-<retasY.png, id=17, 524.96124pt x 503.8825pt>
+<retasY.png, id=24, 524.96124pt x 503.8825pt>
 File: retasY.png Graphic file (type png)
  <use retasY.png>
-Package pdftex.def Info: retasY.png used on input line 182.
-(pdftex.def)             Requested size: 307.3741pt x 295.04301pt.
+Package pdftex.def Info: retasY.png used on input line 270.
+(pdftex.def)             Requested size: 256.14249pt x 245.86662pt.
 
-<retasZ.png, id=18, 530.98375pt x 503.8825pt>
+<retasZ.png, id=25, 530.98375pt x 503.8825pt>
 File: retasZ.png Graphic file (type png)
  <use retasZ.png>
-Package pdftex.def Info: retasZ.png used on input line 190.
-(pdftex.def)             Requested size: 307.3741pt x 291.69078pt.
+Package pdftex.def Info: retasZ.png used on input line 278.
+(pdftex.def)             Requested size: 256.14249pt x 243.06796pt.
 
-Underfull \hbox (badness 4954) in paragraph at lines 195--197
-[]\OT1/phv/m/n/28.61 Analyzing the se-cu-lar va-ri-a-ti-ons for
- []
-
-<spline101sv_X_spline.png, id=19, 433.62pt x 289.08pt>
+<spline101sv_X_spline.png, id=26, 433.62pt x 289.08pt>
 File: spline101sv_X_spline.png Graphic file (type png)
 
 <use spline101sv_X_spline.png>
-Package pdftex.def Info: spline101sv_X_spline.png used on input line 198.
+Package pdftex.def Info: spline101sv_X_spline.png used on input line 286.
 (pdftex.def)             Requested size: 358.59792pt x 239.07619pt.
 
-<spline100sv_y_spline.png, id=20, 433.62pt x 289.08pt>
+<spline100sv_y_spline.png, id=27, 433.62pt x 289.08pt>
 File: spline100sv_y_spline.png Graphic file (type png)
 
 <use spline100sv_y_spline.png>
-Package pdftex.def Info: spline100sv_y_spline.png used on input line 205.
+Package pdftex.def Info: spline100sv_y_spline.png used on input line 293.
 (pdftex.def)             Requested size: 358.59792pt x 239.07619pt.
 
-<spline100sv_z_spline.png, id=21, 433.62pt x 289.08pt>
+<spline100sv_z_spline.png, id=28, 433.62pt x 289.08pt>
 File: spline100sv_z_spline.png Graphic file (type png)
 
 <use spline100sv_z_spline.png>
-Package pdftex.def Info: spline100sv_z_spline.png used on input line 212.
+Package pdftex.def Info: spline100sv_z_spline.png used on input line 300.
 (pdftex.def)             Requested size: 358.59792pt x 239.07619pt.
 
-<OMV_JOELSONMOREIRA.jpg, id=22, 412.97144pt x 245.09854pt>
+<OMV_JOELSONMOREIRA.jpg, id=29, 412.97144pt x 245.09854pt>
 File: OMV_JOELSONMOREIRA.jpg Graphic file (type jpg)
 
 <use OMV_JOELSONMOREIRA.jpg>
-Package pdftex.def Info: OMV_JOELSONMOREIRA.jpg used on input line 238.
-(pdftex.def)             Requested size: 578.3883pt x 343.30016pt.
+Package pdftex.def Info: OMV_JOELSONMOREIRA.jpg used on input line 326.
+(pdftex.def)             Requested size: 661.0206pt x 392.34517pt.
 
 
-! Package inputenc Error: Unicode char ° (U+B0)
-(inputenc)                not set up for use with LaTeX.
+! LaTeX Error: There's no line here to end.
 
-See the inputenc package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 	\hline I component  & -0°
-                                  14' 13" & -0° 19' 15" &-0° 19' 5"\\
+l.350 \\
+        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1613,8 +1735,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 	\hline I component  & -0° 14' 13" & -0°
-                                                 19' 15" &-0° 19' 5"\\
+l.362 	\hline I component  & $-0°
+                                   14' 13"$ & $-0° 19' 15"$ &$-0° 19' 5"$\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1627,8 +1749,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 ...nent  & -0° 14' 13" & -0° 19' 15" &-0°
-                                                   19' 5"\\
+l.362 ...ine I component  & $-0° 14' 13"$ & $-0°
+                                                   19' 15"$ &$-0° 19' 5"$\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1641,8 +1763,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 	\hline D component  & -0°
-                                  7' 2,28" & -0° 6' 25" & -0° 5' 59"\\
+l.362 ... & $-0° 14' 13"$ & $-0° 19' 15"$ &$-0°
+                                                   19' 5"$\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1655,8 +1777,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 	\hline D component  & -0° 7' 2,28" & -0°
-                                                  6' 25" & -0° 5' 59"\\
+l.363 	\hline D component  & $-0°
+                                   7' 2,28"$ & $-0° 6' 25"$ &$ -0° 5' 59"$\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1669,8 +1791,22 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 ...ent  & -0° 7' 2,28" & -0° 6' 25" & -0°
-                                                   5' 59"\\
+l.363 ...ne D component  & $-0° 7' 2,28"$ & $-0°
+                                                   6' 25"$ &$ -0° 5' 59"$\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ° (U+B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.363 ...& $-0° 7' 2,28"$ & $-0° 6' 25"$ &$ -0°
+                                                   5' 59"$\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1678,7 +1814,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 \\itemize ...ix item}##1}}}}} \fi \beamer@cramped 
                                                   \raggedright \beamer@first...
-l.282 \item
+l.381 \item
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1688,7 +1824,7 @@ and I'll forget about whatever was undefined.
 
 File: logo_on_positivo-v.jpg Graphic file (type jpg)
 <use logo_on_positivo-v.jpg>
-Package pdftex.def Info: logo_on_positivo-v.jpg used on input line 290.
+Package pdftex.def Info: logo_on_positivo-v.jpg used on input line 389.
 (pdftex.def)             Requested size: 227.62204pt x 193.92842pt.
 
 Overfull \hbox (22.75752pt too wide) has occurred while \output is active
@@ -1697,7 +1833,7 @@ Overfull \hbox (22.75752pt too wide) has occurred while \output is active
 
 File: top_logo.jpg Graphic file (type jpg)
 <use top_logo.jpg>
-Package pdftex.def Info: top_logo.jpg used on input line 290.
+Package pdftex.def Info: top_logo.jpg used on input line 389.
 (pdftex.def)             Requested size: 227.62204pt x 187.50682pt.
 
 Overfull \hbox (22.75752pt too wide) has occurred while \output is active
@@ -1706,9 +1842,12 @@ Overfull \hbox (22.75752pt too wide) has occurred while \output is active
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./logo_on_positivo-v.jpg> <./top_logo.jpg> <./28_29_june(2013).png> <./retasX
-.png> <./retasY.png> <./retasZ.png> <./spline101sv_X_spline.png> <./spline100sv
-_y_spline.png> <./spline100sv_z_spline.png> <./OMV_JOELSONMOREIRA.jpg>]
+ <./logo_on_positivo-v.jpg> <./top_logo.jpg> <./figs_ed/X mean all_V2.png> <./f
+igs_ed/Y mean all_v2.png> <./figs_ed/Z mean all_v2.png> <./figs_ed/F mean all_v
+2.png> <./figs_ed/H mean all_v2.png> <./figs_ed/D mean all_v2.png> <./figs_ed/I
+ mean all_v2.png> <./F27_31_october(2003).png> <./retasX.png> <./retasY.png> <.
+/retasZ.png> <./spline101sv_X_spline.png> <./spline100sv_y_spline.png> <./splin
+e100sv_z_spline.png> <./OMV_JOELSONMOREIRA.jpg>]
 \tf@nav=\write6
 \openout6 = `poster_VSS.nav'.
 
@@ -1718,10 +1857,10 @@ _y_spline.png> <./spline100sv_z_spline.png> <./OMV_JOELSONMOREIRA.jpg>]
 \tf@snm=\write8
 \openout8 = `poster_VSS.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 389.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
  (poster_VSS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
 
 
  *File List*
@@ -1835,7 +1974,7 @@ booktabs.sty    2005/04/14 v1.61803 publication quality tables
    babel.sty    2017/05/19 3.10 The Babel package
  bblopts.cfg    2005/09/08 v0.1 add Arabic and Farsi to "declared" options of b
 abel
-portuges.ldf    2008/03/18 v1.2q Portuguese support from the babel system
+ english.ldf    2017/01/24 v3.3q English support from the babel system
 inputenc.sty    2015/03/17 v1.2c Input encoding file
     utf8.def    2017/01/28 v1.1t UTF-8 support for inputenc
    t1enc.dfu    2017/01/28 v1.1t UTF-8 support for inputenc
@@ -1879,7 +2018,14 @@ translator-numbers-dictionary-English.dict
 translator-theorem-dictionary-English.dict    
 logo_on_positivo-v.jpg    Graphic file (type jpg)
 top_logo.jpg    Graphic file (type jpg)
-28_29_june(2013).png    Graphic file (type png)
+"figs_ed/X mean all_V2".png
+"figs_ed/Y mean all_v2".png
+"figs_ed/Z mean all_v2".png
+"figs_ed/F mean all_v2".png
+"figs_ed/H mean all_v2".png
+"figs_ed/D mean all_v2".png
+"figs_ed/I mean all_v2".png
+F27_31_october(2003).png    Graphic file (type png)
   retasX.png    Graphic file (type png)
   retasY.png    Graphic file (type png)
   retasZ.png    Graphic file (type png)
@@ -1891,18 +2037,21 @@ logo_on_positivo-v.jpg    Graphic file (type jpg)
 top_logo.jpg    Graphic file (type jpg)
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
 Package rerunfilecheck Info: File `poster_VSS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 19502 strings out of 493323
- 353665 string characters out of 3139034
- 473144 words of memory out of 3000000
- 22515 multiletter control sequences out of 15000+200000
- 35666 words of font info for 86 fonts, out of 3000000 for 9000
+ 19586 strings out of 493323
+ 355968 string characters out of 3139034
+ 478600 words of memory out of 3000000
+ 22583 multiletter control sequences out of 15000+200000
+ 43871 words of font info for 112 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,68p,793b,1263s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,20n,68p,793b,1375s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1911,9 +2060,9 @@ lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/u
 hvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on poster_VSS.pdf (1 page, 3464900 bytes).
+Output written on poster_VSS.pdf (1 page, 3674608 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -41,7 +41,7 @@
 %\boldmath
 \usepackage{booktabs, array}
 %\usepackage{rotating} %sideways environment
-\usepackage[brazil]{babel}
+\usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{natbib}
 \usepackage{ragged2e}
@@ -101,7 +101,7 @@
 
 \begin{block}{History (1915 - 2015)}
 	
-In 1915 the director Morris of the observatory choose the ideal place for installing of the Vassoura Magnetic Observatory.
+In 1913 the engineer and director of the Observatório Nacional (ON), Henrique Charles Morize in partnership with the astronomer Alix Correa Lemos idealized the the city of Vassouras, RJ (Latitude 22.4° S and 43.35° W) as the ideal place for installation of the VSS.
 	
 	
 	
@@ -111,8 +111,29 @@ In 1915 the director Morris of the observatory choose the ideal place for instal
 \begin{columns}
 	\begin{column}{.31\linewidth}
 	
-\begin{block}{}
+\begin{block}{Theorical Fundamentals}
 
+\begin{itemize}
+	\justifying
+	
+\begin{itemize}
+	\justifying
+	\item \bf{Elements of the geomagnetic field}
+\end{itemize}	
+\[ F^{2} = X^{2} + Y^{2} + Z^{2},\]
+ \[  H^{2} = X^{2} + Y^{2}, \]
+\[	   X = Hcos(D),\]
+\[	   Y = Hsen(D),\]
+\[	   Z = Fsen(I),\]
+\[	   H = Fcos(I).\]
+   	
+	
+	\item \bf{Secular variation}
+\end{itemize}
+The secular variation is the sucessive difference of the values of field components given by:
+\[\frac{dX}{dt} = X(t+1)-X(t)\]
+
+where t represents time in years.
 
 \begin{itemize}
 \justifying
@@ -139,22 +160,87 @@ the RMS can be view in the legends of figures.
 	
 \end{block}	
 
+\begin{block}{Geomagnetic Field Elements}
+
+Evolution of the main field components,. From 1915 until 1999 the  annual means data  were given directly by VSS, from 1990 until 2015 was perform annual means using data of minute of the components from INTERMAGNET.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth, height=0.1\textheight]{"figs_ed/X mean all_V2"}
+\caption[1]{1}
+\label{fig:Xmeanall_V2}
+\end{figure}
+   
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth, height=0.1\textheight]{"figs_ed/Y mean all_v2"}
+\caption{2}
+
+\label{fig:Ymeanall_v2}
+\end{figure}
+
+
+\end{block}
 
 \end{column}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Segunda coluna %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{column}{.31\linewidth}
 
+\begin{block}{Geomagnetic Field Elements}
+	
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth, height=0.1\textheight]{"figs_ed/Z mean all_v2"}
+\caption{3}
+\label{fig:Zmeanall_v2}
+\end{figure}
 
-\begin{block}{Sq and Storm days}
-	\justifying
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth, height=0.1\textheight]{"figs_ed/F mean all_v2"}
+\caption{4}
+\label{fig:Fmeanall_v2}
+\end{figure}
+
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\linewidth]{28_29_june(2013)}
-	\caption{8.}
-	\label{storm}
-\end{figure}	
+	\includegraphics[width=0.8\linewidth, height=0.1\textheight]{"figs_ed/H mean all_v2"}
+	\caption{5}
+	\label{fig:Hmeanall_v2}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth, height=0.1\textheight]{"figs_ed/D mean all_v2"}
+\caption{6}
+\label{fig:Dmeanall_v2}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth, height=0.1\textheight]{"figs_ed/I mean all_v2"}
+\caption{7}
+\label{fig:Imeanall_v2}
+\end{figure}
+
+
+	
+	
+\end{block}
+
+
+
+\begin{block}{Sq and Storm Days}
+	\justifying
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{F27_31_october(2003)}
+\label{fig:F27_31_october(2003)}
+\end{figure}
+	
 	
 \end{block}	
 	
@@ -168,18 +254,20 @@ the RMS can be view in the legends of figures.
 	\begin{block}{Geomagnetics Jerks}
 		\justifying
 		Possible ocurrence of geomagnetic jerks.
-		
-		Analyzing the X, Y and Z components:	
+		Secular variation is loosely used to indicate slow changes with time of the geomagnetic field
+		(often found in the Y, X and Z componentS ) that are (probably) due to the changing pattern of core
+		flow:
+		Analyzing directly the X, Y and Z components using LSM to fit trends: 	
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.6\linewidth]{retasX}
+			\includegraphics[width=0.5\linewidth]{retasX}
 			\caption{9.}
 			\label{w}
 		\end{figure}	
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.6\linewidth]{retasY}
+			\includegraphics[width=0.5\linewidth]{retasY}
 			\caption{10.}
 			\label{fintetico}
 		\end{figure}	
@@ -187,12 +275,12 @@ the RMS can be view in the legends of figures.
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.6\linewidth]{retasZ}
+			\includegraphics[width=0.5\linewidth]{retasZ}
 			\caption{11.}
 			\label{fig:g_Sintetico}
 		\end{figure}
 
-Analyzing the secular variations for spline fits: 		
+Analyzing the secular variations (dX/dt, dY/dt e dZ/dt) by spline fits: 		
 		\begin{figure}
 			\centering
 			\includegraphics[width=0.7\linewidth]{spline101sv_X_spline}
@@ -235,7 +323,7 @@ Analyzing the secular variations for spline fits:
 	\justifying
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{OMV_JOELSONMOREIRA}
+\includegraphics[width=0.8\linewidth]{OMV_JOELSONMOREIRA}
 \caption{}
 \label{fig:OMV_JOELSONMOREIRA}
 \end{figure}
@@ -246,8 +334,22 @@ Analyzing the secular variations for spline fits:
 
 \end{block}
 
+
 \begin{block}{VSS}
-	\centering
+\centering
+
+	 Period |\hspace{2.0cm}  Instruments   \\ 
+	 
+	 1915 - 1982 | "Ruska Observatory Pattern (Declination), QHM 534 (Horizontal component) and Earth Inductor Toepfer (Inclination) Variometer unifilar Toepfer 
+	 
+	 1982 - 2012 | DI-flux Bartington, MAG-01 with theodolite Zeiss 010 (1") (Declination and Inclination), PPM Geometrics 816 (Total intensity F).
+	 
+	 2012 - 2014 | Variometer fluxgate (INTERMAGNET)
+
+
+\\
+
+\begin{table}
 \begin{tabular}{|c|c|c|c|}
 		\hline
 		\multicolumn{4}{|c|}{\textbf{Change/year}}\\	
@@ -257,15 +359,12 @@ Analyzing the secular variations for spline fits:
 	\hline Y component & 24,9  & 2.2 & 5.4 \\ 
 	\hline Z component & -79,8 & -91.6  & -94.1\\ 
 	\hline H component  & -64,7 & -85.3 & -88.2\\ 
-	\hline I component  & -0° 14' 13" & -0° 19' 15" &-0° 19' 5"\\ 
-	\hline D component  & -0° 7' 2,28" & -0° 6' 25" & -0° 5' 59"\\ 
+	\hline I component  & $-0° 14' 13"$ & $-0° 19' 15"$ &$-0° 19' 5"$\\ 
+	\hline D component  & $-0° 7' 2,28"$ & $-0° 6' 25"$ &$ -0° 5' 59"$\\ 
 	\hline 
 \end{tabular} 
-	
-	
-	
-	
-	
+\caption{2. }
+\end{table}		
 \end{block}
 
 
@@ -276,7 +375,7 @@ Analyzing the secular variations for spline fits:
 
 
 
-\begin{block}{Referencias}
+\begin{block}{References}
 
 \begin{itemize}
 \item
