@@ -91,17 +91,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{block}{Introduction}
 \justifying	
- Vassouras Magnetic Observatory (VSS) was the first observatory in Brazil, starting its measurements in 1915. VSS plays an important role in monitoring of the magnetic field in the south hemisphere mainly because is located in region of Southern Atlantic Magnetic Anomaly (SAMA). VSS is part of the INTERMAGNET since 1999 because of its high data quality and transmission in real time.
+ Vassouras Magnetic Observatory (VSS) was the first observatory in Brazil, starting its measurements in 1915. VSS plays an important role in monitoring of the magnetic field in the south hemisphere mainly because is located in region of Southern Atlantic Magnetic Anomaly (SAMA), in addition, due to its high data quality and transmission in real time VSS is part of the INTERMAGNET (since 1999) network and contributes to development global model.
  
- This work presents the history of VSS as well as the centennial dataset (1915-2015). We	explore the comparison of VSS data and results of IGRF model, present a day Solarquiet and storm data as well the main characteristics of the secular variation in	VSS and the possible geomagnetic jerks occurring in this period.	
+ This work presents the history of VSS as well as the centennial dataset (1915-2015). We	explore the comparison of VSS data and results of IGRF model. We present a Solar-quiet and storm day to eveluate the influence of the exernal field on VSS and the possible occurrences of the jerks addressing the main characteristics of the secular variation that evidence the variations of internal field.	
 		
 
 	
 \end{block}
 
 \begin{block}{History (1915 - 2015)}
-	
-In 1913 the engineer and director of the Observatório Nacional (ON), Henrique Charles Morize in partnership with the astronomer Alix Correa Lemos idealized the the city of Vassouras, RJ (Latitude 22.4° S and 43.35° W) as the ideal place for installation of the VSS.
+	\justifying	
+In 1913 the engineer and director of the Observatório Nacional (ON), Henrique Charles Morize in partnership with the astronomer Alix Correa Lemos idealized the city of Vassouras, RJ (Latitude $22.4 ^{\circ}$ S and $43.35 ^{\circ}$ W) as the ideal place for installation of the VSS, the old place at Morro do Castelo where the Imperial Observatório do Rio de Janeiro (IORJ) was located had a high level of magnetic noise, this problem affects the measurements of the Earth's magnetic field and was the reason for the change of the magnetic observatory from Rio de Janeiro to the Paraíba Valley.  
 	
 	
 	
@@ -113,12 +113,9 @@ In 1913 the engineer and director of the Observatório Nacional (ON), Henrique C
 	
 \begin{block}{Theorical Fundamentals}
 
+
 \begin{itemize}
-	\justifying
-	
-\begin{itemize}
-	\justifying
-	\item \bf{Elements of the geomagnetic field}
+\item \bf{Relation between the elements of the geomagnetic field}
 \end{itemize}	
 \[ F^{2} = X^{2} + Y^{2} + Z^{2},\]
  \[  H^{2} = X^{2} + Y^{2}, \]
@@ -127,7 +124,8 @@ In 1913 the engineer and director of the Observatório Nacional (ON), Henrique C
 \[	   Z = Fsen(I),\]
 \[	   H = Fcos(I).\]
    	
-	
+
+\begin{itemize}	
 	\item \bf{Secular variation}
 \end{itemize}
 The secular variation is the sucessive difference of the values of field components given by:
@@ -136,12 +134,6 @@ The secular variation is the sucessive difference of the values of field compone
 where t represents time in years.
 
 \begin{itemize}
-\justifying
-		\item \bf{Least Square Method (LSM)}
-\end{itemize}
-
-\begin{itemize}
-\justifying
 		\item \bf{Fit by spline interpolation}
 \end{itemize}
 The secular variation of X,Y and Z compontents were fitted using an algorithm  of linear fit by spline method: 
@@ -149,8 +141,7 @@ The secular variation of X,Y and Z compontents were fitted using an algorithm  o
 	for x_{n-1} \le x \le x_{n} \]\\
 
 \begin{itemize}
-\justifying
-		\item \bf{Root Means Square (RMS)}
+\item \bf{Root Means Square (RMS)}
 \end{itemize}
 We calculated the erro between the model IGRF and the data from VSS using RMS:
 \[e_{RMS}=\frac{1}{N} \sqrt{\sum\limits_{i=1}^{N}(m_{i}-d_{i})^{2}}, 
