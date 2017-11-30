@@ -7,4 +7,4 @@
 
 
 
-<img src='https://raw.githubusercontent.com/arturbenevides/Geomagnetismo/master/Observat%C3%B3rio%20Magn%C3%A9tico%20de%20Vassouras/canvas.png' width = 600>
+<img src='https://raw.githubusercontent.com/arturbenevides/Geomagnetismo/master/Observat%C3%B3rio%20Magn%C3%A9tico%20de%20Vassouras/canvas.png' width = 800>
