@@ -20,4 +20,5 @@ Fonte: [DTU Space](http://www.space.dtu.dk/english/Research/Research_divisions/G
 
 
 
-- [x] 2017
+- [x] 25/11/17 Apresentação no II PANGEO 
+- [ ] 31/01/18 Submissão de resumo expandido
