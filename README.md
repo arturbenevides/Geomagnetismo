@@ -17,3 +17,7 @@ Fonte: [DTU Space](http://www.space.dtu.dk/english/Research/Research_divisions/G
 
 
 <img src='https://github.com/arturbenevides/Geomagnetismo/blob/master/Observat%C3%B3rio%20Magn%C3%A9tico%20de%20Vassouras/Solar%20quite%20and%20Storm/F27_31_october(2003).png' width = 600>
+
+
+
+- [x] 2017
