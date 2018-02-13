@@ -1,12 +1,7 @@
 # Geomagnetismo
 Disciplina cursada no Observatório Nacional, códigos e textos.
 
-Artur Benevides
-Vitor Silveira
-Edwin Camacho
-Rodrigo Melhorato
-Israelli Rodrigo
-Kátia Pinheiro
+Artur Benevides, Vitor Silveira, Edwin Camacho, Rodrigo Melhorato, Israelli Rodrigo & Kátia Pinheiro
 
 Neste repositório estarão disponíveis alguns materiais desenvolvidos na disciplina de Geomagnetismo, principalmente sobre o observatório magnético de Vassouras.
 
