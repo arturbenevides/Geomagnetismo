@@ -1,9 +1,8 @@
 # Geomagnetismo
-Disciplina cursada no Observatório Nacional, códigos e textos.
 
-Artur Benevides, Vitor Silveira, Edwin Camacho, Rodrigo Melhorato, Israelli Rodrigo & Kátia Pinheiro
+A idéia deste respositório surgiu durante a disciplina de Geomagnetismo cursada no Observatório Nacional pela docente Kátia Jabinscheck Pineiro.
 
-Neste repositório estarão disponíveis alguns materiais desenvolvidos na disciplina de Geomagnetismo, principalmente sobre o observatório magnético de Vassouras.
+Neste repositório estarão disponíveis alguns materiais desenvolvidos na disciplina e principalmente sobre o observatório magnético de Vassouras.
 
 No diretório [Observatório Magnético de Vassouras](https://github.com/arturbenevides/Geomagnetismo/tree/master/Observat%C3%B3rio%20Magn%C3%A9tico%20de%20Vassouras) apresentamos uma abordagem sobre o histórico do observatório, a qualidade dos dados, as ocorrẽncias de fenômenos geomagnéticos nos últimos 100 anos, por exemplo, a possibilidade de ocorrência de jerks devido a variações no campo interno associadas a atividade do núcleo e ocorrẽncia de tempestades magnéticas devido a maior atividade solar. 
 
