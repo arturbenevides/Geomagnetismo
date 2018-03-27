@@ -15,13 +15,13 @@ No diretório [CHAOS-6](https://github.com/arturbenevides/Geomagnetismo/tree/mas
 Fonte: [DTU Space](http://www.space.dtu.dk/english/Research/Research_divisions/Geomagnetism)
 
 
-A Figura abaixo representa uma tempestade magnética registrada pela componete H em (VSS).
+A Figura abaixo representa uma tempestade magnética registrada pela componete F (Campo total) em (VSS).
 
 <img src='https://github.com/arturbenevides/Geomagnetismo/blob/master/Observat%C3%B3rio%20Magn%C3%A9tico%20de%20Vassouras/Solar%20quite%20and%20Storm/F27_31_october(2003).png' width = 600>
 
 
 
 - [x] 25/11/17 Apresentação no II PANGEO 
-- [ ] 31/01/18 Submissão de resumo expandido
-- [ ] - - - Continuidade do paper
-- [ ] ---
+- [ ] 31/01/18 Submissão de resumo expandido II PANGEO
+- [ ] - - - Continuidade do paper (RBGF)
+- [ ] - - - Webpage para VSS
