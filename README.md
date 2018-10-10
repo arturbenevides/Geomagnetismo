@@ -1,6 +1,5 @@
 # Geomagnetismo
 
-
 A idéia deste respositório surgiu durante a disciplina de Geomagnetismo cursada no Observatório Nacional pela docente [Kátia Jasbinschek Pinheiro](http://lattes.cnpq.br/0517437685169893).
 
 Neste repositório estarão disponíveis alguns materiais desenvolvidos na disciplina e principalmente sobre o observatório magnético de Vassouras.
